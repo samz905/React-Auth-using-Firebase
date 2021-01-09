@@ -37,7 +37,7 @@ class App extends React.Component {
       <div className="app">
         <Router>
           <Switch>
-            <Route exact path='/React-Auth-using-Firebase' component={LandingPage} />
+            <Route exact path='/' component={LandingPage} />
             <PrivateRoute 
               exact path='/externaluser' 
               component={ExternalUser} 
